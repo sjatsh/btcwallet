@@ -5,8 +5,6 @@ go 1.12
 require (
 	github.com/btcsuite/btcd v0.23.4
 	github.com/btcsuite/btcd/btcutil v1.1.1
-	github.com/sjatsh/btcwallet/wallet/txrules v1.2.0
-	github.com/sjatsh/btcwallet/wallet/txsizes v1.2.3
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/kkdai/bstream v1.0.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
