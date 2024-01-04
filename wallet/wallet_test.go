@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/sjatsh/btcwallet/walletdb"
+	"github.com/sjatsh/btcwallet/wtxmgr"
 	"github.com/stretchr/testify/require"
 
 	"github.com/btcsuite/btcd/btcutil"

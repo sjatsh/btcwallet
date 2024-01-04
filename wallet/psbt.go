@@ -13,11 +13,11 @@ import (
 	"github.com/btcsuite/btcd/btcutil/psbt"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/sjatsh/btcwallet/waddrmgr"
+	"github.com/sjatsh/btcwallet/wallet/txauthor"
+	"github.com/sjatsh/btcwallet/wallet/txrules"
+	"github.com/sjatsh/btcwallet/walletdb"
+	"github.com/sjatsh/btcwallet/wtxmgr"
 )
 
 // FundPsbt creates a fully populated PSBT packet that contains enough inputs to

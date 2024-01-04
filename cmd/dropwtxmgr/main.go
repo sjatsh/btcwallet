@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
+	"github.com/sjatsh/btcwallet/wallet"
+	"github.com/sjatsh/btcwallet/walletdb"
+	_ "github.com/sjatsh/btcwallet/walletdb/bdb"
 )
 
 const defaultNet = "mainnet"

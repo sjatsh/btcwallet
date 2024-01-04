@@ -13,10 +13,10 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino/cache/lru"
+	"github.com/sjatsh/btcwallet/internal/zero"
+	"github.com/sjatsh/btcwallet/netparams"
+	"github.com/sjatsh/btcwallet/walletdb"
 )
 
 // HDVersion represents the different supported schemes of hierarchical

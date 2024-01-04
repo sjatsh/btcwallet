@@ -25,14 +25,14 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/walletdb/migration"
-	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/sjatsh/btcwallet/chain"
+	"github.com/sjatsh/btcwallet/waddrmgr"
+	"github.com/sjatsh/btcwallet/wallet/txauthor"
+	"github.com/sjatsh/btcwallet/wallet/txrules"
+	"github.com/sjatsh/btcwallet/walletdb"
+	"github.com/sjatsh/btcwallet/walletdb/migration"
+	"github.com/sjatsh/btcwallet/wtxmgr"
 )
 
 const (

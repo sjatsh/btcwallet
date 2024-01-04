@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet/wallet/txsizes
+module github.com/sjatsh/btcwallet/wallet/txsizes
 
 go 1.12
 

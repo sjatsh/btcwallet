@@ -6,9 +6,9 @@ package wallet
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb/migration"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/sjatsh/btcwallet/waddrmgr"
+	"github.com/sjatsh/btcwallet/walletdb/migration"
+	"github.com/sjatsh/btcwallet/wtxmgr"
 )
 
 // log is a logger that is initialized with no output filters.  This

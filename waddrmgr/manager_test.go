@@ -21,9 +21,9 @@ import (
 	"github.com/btcsuite/btcd/btcutil/hdkeychain"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/sjatsh/btcwallet/snacl"
+	"github.com/sjatsh/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
 )
 

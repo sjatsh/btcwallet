@@ -6,8 +6,8 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/sjatsh/btcwallet/chain"
+	"github.com/sjatsh/btcwallet/waddrmgr"
 )
 
 type mockChainClient struct {

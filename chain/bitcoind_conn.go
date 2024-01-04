@@ -92,6 +92,10 @@ type BitcoindConfig struct {
 	//
 	// NOTE: This only applies for pruned bitcoind nodes.
 	PrunedModeMaxPeers int
+
+	DisableTLS bool
+
+	HTTPPostMode bool
 }
 
 // BitcoindConn represents a persistent client connection to a bitcoind node
@@ -143,8 +147,8 @@ func NewBitcoindConn(cfg *BitcoindConfig) (*BitcoindConn, error) {
 		Pass:                 cfg.Pass,
 		DisableAutoReconnect: false,
 		DisableConnectOnNew:  true,
-		DisableTLS:           true,
-		HTTPPostMode:         true,
+		DisableTLS:           cfg.DisableTLS,
+		HTTPPostMode:         cfg.HTTPPostMode,
 	}
 	client, err := rpcclient.New(clientCfg, nil)
 	if err != nil {
